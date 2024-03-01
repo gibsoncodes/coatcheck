@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/coatcheck/static/css/main.77c09920.css",
+    "main.js": "/coatcheck/static/js/main.d7f1d05e.js",
+    "static/js/453.ae4b6d34.chunk.js": "/coatcheck/static/js/453.ae4b6d34.chunk.js",
+    "static/media/IMG_1603.jpg": "/coatcheck/static/media/IMG_1603.db7e238e3497d09e65e3.jpg",
+    "static/media/IMG_1606.jpg": "/coatcheck/static/media/IMG_1606.bc40b8663c7b1321dc74.jpg",
+    "static/media/IMG_1600.jpg": "/coatcheck/static/media/IMG_1600.1caadb550e9ed53a8ed8.jpg",
+    "static/media/IMG_1605.jpg": "/coatcheck/static/media/IMG_1605.140ce3491ca425e1e3e1.jpg",
+    "static/media/IMG_1602.jpg": "/coatcheck/static/media/IMG_1602.946b6213f1162f1a517e.jpg",
+    "static/media/IMG_1604.jpg": "/coatcheck/static/media/IMG_1604.dbb8b78810e66d1bdbf2.jpg",
+    "static/media/carolinesub.jpg": "/coatcheck/static/media/carolinesub.b9870a8fc19e5a26238b.jpg",
+    "static/media/IMG_1617.jpg": "/coatcheck/static/media/IMG_1617.298e75bd387d9de39803.jpg",
+    "static/media/bg-pyscho.png": "/coatcheck/static/media/bg-pyscho.03c72355fba4bf538b3a.png",
+    "static/media/caro-slime.jpeg": "/coatcheck/static/media/caro-slime.06b63de18676e5adec89.jpeg",
+    "static/media/logo.svg": "/coatcheck/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/coatcheck/index.html",
+    "main.77c09920.css.map": "/coatcheck/static/css/main.77c09920.css.map",
+    "main.d7f1d05e.js.map": "/coatcheck/static/js/main.d7f1d05e.js.map",
+    "453.ae4b6d34.chunk.js.map": "/coatcheck/static/js/453.ae4b6d34.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77c09920.css",
+    "static/js/main.d7f1d05e.js"
+  ]
+}
