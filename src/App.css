@@ -1,5 +1,12 @@
+body, html {
+    width: 100%;
+    height: 100%;
+}
+
 .App {
   text-align: center;
+  width: 100%;
+    height: 100%;
 }
 
 .App-logo {
@@ -35,4 +42,457 @@
   to {
     transform: rotate(360deg);
   }
+}
+#app2 {
+    overflow-y: scroll;
+}
+.main {
+    background-color: rgb(236, 236, 236);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: hidden;
+}
+
+#mailbox-open {
+    /* position: absolute;
+    z-index: 5;
+    height: 600px;
+    border-bottom: solid rgb(36, 36, 36) 30px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px; */
+    outline: solid rgb(139, 109, 109) 3px;
+    .mailbox-top-detail {
+        display: none;
+    }
+    .mailbox-txt {
+        display: none;
+    }
+}
+
+.mailbox-top-detail {
+    position: absolute;
+    margin-bottom: 350px;
+    background-color: #282c34;
+    border-top: solid #282c34 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 30px;
+    height: 15px;
+}
+
+.mailbox-bottom-detail {
+    position: absolute;
+    margin-top: 350px;
+    background-color: #282c34;
+    border-bottom: solid #282c34 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 30px;
+    height: 15px;
+}
+
+.mailbox-bottom-detail:hover {
+    background-color: #8a92a1;
+    border-color: #8a92a1;
+}
+
+.mailbox-top-detail:hover {
+    background-color: #8a92a1;
+    border-color: #8a92a1;
+}
+
+.pass {
+    font-size: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.m1 {
+    position: absolute;
+    z-index: 10;
+    width: 250px;
+    height: 300px;
+    outline: solid rgb(139, 109, 109) 3px;
+    top: 100%;
+    background-color: rgb(36, 36, 36);
+    border-bottom: solid rgb(36, 36, 36) 30px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter-detail-l {
+    position: absolute;
+    top: 25%;
+    right: 27%;
+    width: 97%;
+    height: 1px;
+    background-color: white;
+    transform: rotate(60deg);
+}
+
+.letter-detail-r {
+    position: absolute;
+    bottom: 25%;
+    right: 27%;
+    width: 97%;
+    height: 1px;
+    background-color: white;
+    transform: rotate(-60deg);
+}
+
+.mailbox-inner-txt {
+    transform: rotate(10deg);
+    color: white;
+}
+
+.letter-in-box {
+    position: relative;
+    width: 120px;
+    height: 200px;
+    background-color: rgb(41, 93, 41);
+    transform: rotate(-5deg);
+    border: solid rgb(5, 33, 5) 1px;
+}
+
+.letter-in-box:hover {
+    background-color: rgb(31, 99, 31);
+    animation: letterWiggle 2s infinite;
+}
+
+.m2 {
+    position: absolute;
+    z-index: 10;
+    width: 250px;
+    height: 300px;
+    outline: solid rgb(139, 109, 109) 3px;
+
+    top: 100%;
+    background-color: rgb(36, 36, 36);
+    border-bottom: solid rgb(36, 36, 36) 30px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.m3 {
+    position: absolute;
+    z-index: 10;
+    width: 250px;
+    outline: solid rgb(139, 109, 109) 3px;
+
+    height: 300px;
+    top: 100%;
+    background-color: rgb(36, 36, 36);
+    border-bottom: solid rgb(36, 36, 36) 30px;
+    border-bottom-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mailbox {
+    position: relative;
+    margin: 0px 35px;
+    width: 250px;
+    height: 300px;
+    background-color: rgb(36, 36, 36);
+    border-top: solid rgb(36, 36, 36) 30px;
+    border-top-right-radius: 120px;
+    border-top-left-radius: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.mailbox-container {
+    position: relative;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.mailbox-txt {
+    padding: 4px 10px;
+    background-color: white;
+    color: black;
+    margin: 0 30px;
+    margin-top: auto;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.mailbox-lower {
+    position: relative;
+}
+.lower-mailbox {
+    width: 890px;
+    height: 50px;
+    background-color: rgb(208, 174, 123);
+}
+
+.l-lower-mailbox {
+    position: absolute;
+    width: 520px;
+    height: 50px;
+    background-color: rgb(208, 174, 123);
+    transform: rotate(45deg);
+    margin-top: 185px;
+}
+.r-lower-mailbox {
+    position: absolute;
+    width: 520px;
+    height: 50px;
+    background-color: rgb(208, 174, 123);
+    transform: rotate(-45deg);
+    margin-top: 185px;
+    left: 42%;
+}
+.b-lower-mailbox {
+    position: absolute;
+    width: 450px;
+    height: 50px;
+    background-color: rgb(208, 174, 123);
+    transform: rotate(90deg);
+    margin-top: 155px;
+    left: 25%;
+}
+
+#letterSpin {
+    position: absolute;
+    z-index: 100;
+    left: 23%;
+    animation: letterSpin;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    .letter-detail-l {
+        display: none;
+    }
+    .letter-detail-r {
+        display: none;
+    }
+}
+
+.return-add {
+    position: absolute;
+    top: 80%;
+    right: 70%;
+    transform: rotate(-90deg);
+    color: white;
+    font-weight: 700;
+    text-align: left;
+}
+
+.send-add {
+    position: absolute;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    top: 40%;
+    right: 20%
+}
+
+.stamp {
+    position: absolute;
+    border: solid white 2px;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    font-size: 25px;
+    color: rgb(218, 189, 189);
+    top: 0%;
+    right: 75%;
+    padding: 30px 20px;
+    background-color: rgb(191, 241, 241);
+}
+
+.stamp:hover {
+    background-color: #c3f3ff;
+    cursor: pointer;
+}
+
+.letter-view {
+    width: 100%;
+    height: 100%;
+    background-image: url("./bg-pyscho.png");
+    background-repeat: repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.wood-bg {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: .5;
+    left: 0;
+}
+
+
+
+.page {
+    z-index: 5;
+    width: 40%;
+    padding: 25px 40px;
+    height: 85%;
+    max-height: 85%;
+    margin: 50px 0;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    overflow-y: scroll;
+    background-color: rgb(244, 239, 239);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.stamp-2 {
+    position: absolute;
+    transform: rotate(-90deg);
+    font-weight: 700;
+    font-size: 15px;
+    color: rgb(218, 218, 218);
+    right: 20%
+
+}
+
+.arrow-left {
+    margin-bottom: 20px;
+
+}
+
+.arrow-right {
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.arrow-right:hover {
+    z-index: 50;
+
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.bbl {
+    z-index: 100;
+}
+
+#page2 {
+   background-color: rgb(140, 172, 200);
+}
+
+.arrow-left:hover {
+    z-index: 50;
+    color: black;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.page-text {
+    font-family: "Quicksand", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  line-height: 25px;
+}
+.l2-center {
+    font-family: "Quicksand", serif;
+    font-weight: 600;
+    text-align: left;
+    line-height: 20px;
+}
+#ph-slime {
+    color: rgb(39, 166, 39);
+    font-weight: 900;
+}
+
+.sub-photo {
+    width: 100%;
+}
+
+.photo-box {
+    width: 100%;
+}
+
+.smaller {
+    font-size: 15px;
+}
+
+.author {
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.slime-txt {
+    width: 100px;
+}
+
+.align {
+    align-items: center;
+}
+
+.page-header {
+    font-family: "Quicksand", serif;
+  font-weight: 600;
+  font-style: normal;
+  text-align: left;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: left;
+}
+
+@keyframes letterSpin {
+    0% {
+        transform: rotate(0deg);
+        width: 120px;
+        height: 200px;
+        left: 23%;
+    }
+    100% {
+        transform: rotate(450deg);
+        width: 480px;
+        height: 800px;
+        left: -100%;
+    }
+    
+}
+@keyframes letterWiggle {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(5deg);
+    }
+    50% {
+        transform: rotate(0deg);
+    }
+    75% {
+        transform: rotate(-5deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
